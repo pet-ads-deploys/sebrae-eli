@@ -1,4 +1,5 @@
 import Directory from "./components/sections/Directory";
+import Footer from "./components/commons/structure/Footer";
 import "./App.css";
 
 export function App() {
@@ -7,6 +8,7 @@ export function App() {
       <main className="app-main">
         <Directory />
       </main>
+      <Footer />
     </div>
   );
 }

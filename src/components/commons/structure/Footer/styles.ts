@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const FooterContainer = styled.footer`
   width: 100%;
-  margin-top: auto;
   background-color: #ffffff;
 `;
 
@@ -10,6 +9,11 @@ export const DividerLine = styled.div`
   width: 100%;
   height: 2px;
   background-color: #e2e8f0;
+`;
+
+export const ContentWrapper = styled.div`
+  max-width: 1200px;
+  margin: 0 auto;
 `;
 
 export const Content = styled.div`

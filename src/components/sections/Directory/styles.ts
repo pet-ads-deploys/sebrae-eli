@@ -48,13 +48,11 @@ export const TabsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border-bottom: 1px solid #f1f5f9;
   padding-bottom: 8px;
 
   @media (min-width: 768px) {
     justify-content: center;
     gap: 24px;
-    border-bottom: 1px solid #f1f5f9;
   }
 
 `;

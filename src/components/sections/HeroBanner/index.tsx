@@ -2,7 +2,23 @@ import * as S from "./styles";
 import SaoCarlosLogo from "../../../assets/images/saoCarlos.png";
 
 export default function HeroBanner() {
+
+  const handleScrollDown = () => {
+    const aboutSection = document.getElementById("about");
+    if (aboutSection) {
+      const offset = 75;
+      const targetPosition =
+        aboutSection.getBoundingClientRect().top + window.scrollY + offset;
+
+      window.scrollTo({
+        top: targetPosition,
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
+
     <S.Container id="hero">
       <S.BackgroundImage
         src={SaoCarlosLogo}
@@ -15,6 +31,15 @@ export default function HeroBanner() {
           <span>conectar</span>
         </S.Title>
       </S.Content>
+      <S.ScrollDownButton
+        type="button"
+        onClick={handleScrollDown}
+        aria-label="Rolar para a seção O que é o ELI"
+      >
+        <svg viewBox="0 0 24 24">
+          <polyline points="6 9 12 15 18 9" />
+        </svg>
+      </S.ScrollDownButton>
     </S.Container>
   );
 }

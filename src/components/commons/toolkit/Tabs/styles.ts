@@ -14,7 +14,7 @@ export const TabsContainer = styled.nav`
   @media (min-width: 768px) {
     flex-wrap: nowrap;
     gap: 36px;
-    justify-content: flex-start;
+    justify-content: center;
   }
 `;
 

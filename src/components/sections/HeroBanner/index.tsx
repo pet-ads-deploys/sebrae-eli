@@ -6,10 +6,10 @@ export default function HeroBanner() {
   const handleScrollDown = () => {
     const aboutSection = document.getElementById("about");
     if (aboutSection) {
-      const offset = 75;
+      const isMobile = window.innerWidth < 768;
+      const offset = isMobile ? 350 : 75;
       const targetPosition =
         aboutSection.getBoundingClientRect().top + window.scrollY + offset;
-
       window.scrollTo({
         top: targetPosition,
         behavior: "smooth",

@@ -76,3 +76,9 @@ export const SocialLink = styled.a`
   }
 
 `;
+
+export const SocialActions = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 12px;
+`;

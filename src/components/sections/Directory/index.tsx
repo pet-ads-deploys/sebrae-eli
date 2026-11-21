@@ -68,6 +68,8 @@ export default function Directory() {
               bio={contact.bio}
               organization={contact.organization}
               avatarUrl={contact.avatarUrl}
+              email={contact.email}
+              phone={contact.phone}
               linkedinUrl={contact.linkedinUrl}
             />
           ))}

@@ -1,4 +1,5 @@
 import fundoCinza from "../../assets/images/fundocinza.avif";
+import AntonioPedrini from "../../assets/images/AntonioCesarPedrini.jpg";
 
 export interface ContactItem {
   id: string;
@@ -19,14 +20,14 @@ export const CONTACTS_DATA: ContactItem[] = [
     id: '1',
     categoryId: 'ambiente-inovacao',
     badge: 'COWORKING',
-    name: 'Ana Beatriz Ramos',
-    role: 'Gestora de espaço compartilhado',
-    bio: 'Cuida da rotina do coworking e apresenta quem chega a quem já está lá dentro',
-    organization: 'Sebrae-SP São Carlos',
-    avatarUrl: fundoCinza,
-    email: 'ana.beatriz@sebrae-sp.com.br',
-    phone: '(16) 3333-4444',
-    linkedinUrl: 'https://www.linkedin.com',
+    name: 'Antonio Cesar Pedrini',
+    role: 'Engenheiro Eletricista & Gestor de Projetos',
+    bio: 'Engenheiro Eletricista formado pelo Instituto Tecnológico da Aeronáutica. Desenvolveu pesquisas e projetos no Instituto de Atividades Espaciais (IAE) dentro do Centro Tecnológico da Aeronáutica (CTA) nas áreas de sistemas bélicos e de foguetes. Pós graduado em Eficiência Energética em sistemas de Refrigeração/AC, Motores, Iluminação, Ar Comprimido, Projetos/Instalação de sistemas Fotovoltaicos e Gestão de Energia (ISO 50001) nas escolas SENAI. Primeiro Secretário da AEASC e Gestor do Projeto da CPL da Construção Civil de São Carlos.',
+    organization: 'AEASC',
+    avatarUrl: AntonioPedrini,
+    email: 'acpedrini@gmail.com',
+    phone: '16 99156-3323',
+    linkedinUrl: '',
   },
   {
     id: '2',

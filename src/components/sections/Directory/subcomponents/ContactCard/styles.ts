@@ -32,8 +32,29 @@ export const Bio = styled.p`
   font-size: 0.84rem;
   color: #475569;
   line-height: 1.55;
-  margin: 0 0 20px 0;
-  flex-grow: 1;
+  margin: 0 0 16px 0;
+  flex: 1;
+  min-height: 0; /* Essencial para o scroll funcionar dentro do flex container */
+  overflow-y: auto;
+  padding-right: 6px; /* Evita que o texto encoste na barra de rolagem */
+
+  /* Estilização sutil da barra de rolagem (Chrome, Edge, Safari) */
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 999px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #94a3b8;
+  }
 `;
 
 export const Footer = styled.footer`

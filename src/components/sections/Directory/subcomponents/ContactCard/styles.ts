@@ -34,11 +34,10 @@ export const Bio = styled.p`
   line-height: 1.55;
   margin: 0 0 16px 0;
   flex: 1;
-  min-height: 0; /* Essencial para o scroll funcionar dentro do flex container */
+  min-height: 0;
   overflow-y: auto;
-  padding-right: 6px; /* Evita que o texto encoste na barra de rolagem */
-
-  /* Estilização sutil da barra de rolagem (Chrome, Edge, Safari) */
+  padding-right: 6px;
+  
   &::-webkit-scrollbar {
     width: 4px;
   }

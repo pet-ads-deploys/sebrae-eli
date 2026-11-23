@@ -7,7 +7,7 @@ export default function HeroBanner() {
     const aboutSection = document.getElementById("about");
     if (aboutSection) {
       const isMobile = window.innerWidth < 768;
-      const offset = isMobile ? 350 : 75;
+      const offset = isMobile ? 350 : 85;
       const targetPosition =
         aboutSection.getBoundingClientRect().top + window.scrollY + offset;
       window.scrollTo({

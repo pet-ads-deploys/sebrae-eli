@@ -13,7 +13,7 @@ export const ContentWrapper = styled.div`
   width: 100%;
   max-width: 820px;
   margin: 0 auto;
-  padding: 64px 20px 56px 20px;
+  padding: 56px 20px 56px 20px;
   text-align: center;
   box-sizing: border-box;
 

@@ -5,7 +5,7 @@ import CristianeFragalle from "../../assets/images/CristianeVieiraPeresFragalle.
 import KarenFavaro from "../../assets/images/KarenFavaro.jpg";
 import RodolfoMeneguette from "../../assets/images/RodolfoIpolitoMeneguette.jpeg";
 import MirleneSimoes from "../../assets/images/MirleneSimões.jpg";
-import ClaudioTole from "../../assets/images/ClaudioTole.jpg";
+import ClaudioTole from "../../assets/images/ClaudioTole.png";
 import ViniciusMicali from "../../assets/images/ViniciusRafaelMicaliSoares.jpeg";
 import PrimoMelare from "../../assets/images/PrimoUplab.jpg";
 import RegianeTravensolo from "../../assets/images/RegianeTravensolo.jpg";
